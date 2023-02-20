@@ -1,0 +1,188 @@
+/* Close, mini,maxi */
+
+aside {
+    background: rgba(59, 59, 59, 1);
+    width: 33.333333333333%;
+}
+
+
+.controls {
+    display: flex;
+}
+
+.controls button {
+    width: 1rem;
+    height: 1rem;
+    margin: 0.2rem;
+    background: aliceblue;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+}
+
+.controls .close {
+    background: rgb(255, 60, 60);
+}
+
+.controls .close:hover {
+    background: rgb(203, 22, 22);
+}
+
+.controls .close:active {
+    background: rgb(253, 103, 103);
+}
+.controls .minimize {
+    background: rgb(255, 221, 0);
+}
+
+.controls .minimize:hover {
+    background: rgb(185, 166, 0);
+} 
+
+.controls .minimize:active {
+    background: rgb(255, 241, 117);
+}
+
+.controls .maximize {
+    background: rgb(0, 190, 0);
+}
+
+.controls .maximize:hover {
+    background: rgb(9, 153, 9);
+}
+
+.controls .maximize:active {
+    background: rgb(76, 201, 76);
+}
+
+
+
+
+/* Form */
+
+.search {
+    height: 1.5rem;
+    padding: .75rem;
+}
+
+input {
+    border: none;
+    background: rgba(255, 255, 255, 0.5);
+    color: rgb(75, 75, 75);
+    font-weight: bold;
+    width: 100%;
+    padding: .5rem;
+    border-radius: 5px;
+    margin-left: -.5rem;
+}
+
+/* Currency */
+
+div.currency {
+    list-style-type: none;
+    margin: .5rem;
+    margin-left: .5rem;
+}
+
+.EUR {
+    background: none;
+    border: none;
+    color: rgb(227, 227, 227);
+}
+.EUR:hover {
+    color: rgb(255, 255, 255);
+}
+
+.EUR:active {
+    color: rgb(190, 190, 190)
+}
+
+.USD {
+    background: none;
+    border: none;
+    color: rgb(227, 227, 227);
+}
+.USD:hover {
+    color: rgb(255, 255, 255);
+}
+
+.USD:active {
+    color: rgb(190, 190, 190)
+}
+
+.GBP {
+    background: none;
+    border: none;
+    color: rgb(227, 227, 227);
+}
+.GBP:hover {
+    color: rgb(255, 255, 255);
+}
+
+.GBP:active {
+    color: rgb(190, 190, 190)
+}
+
+.JPY {
+    background: none;
+    border: none;
+    color: rgb(227, 227, 227);
+}
+.JPY:hover {
+    color: rgb(255, 255, 255);
+}
+
+.JPY:active {
+    color: rgb(190, 190, 190)
+}
+
+.CZK {
+    background: none;
+    border: none;
+    color: rgb(227, 227, 227);
+}
+.CZK:hover {
+    color: rgb(255, 255, 255);
+}
+
+.CZK:active {
+    color: rgb(190, 190, 190)
+}
+
+.CAD {
+    background: none;
+    border: none;
+    color: rgb(227, 227, 227);
+}
+.CAD:hover {
+    color: rgb(255, 255, 255);
+}
+
+.CAD:active {
+    color: rgb(190, 190, 190)
+}
+
+.KRW {
+    background: none;
+    border: none;
+    color: rgb(227, 227, 227);
+}
+.KRW:hover {
+    color: rgb(255, 255, 255);
+}
+
+.KRW:active {
+    color: rgb(190, 190, 190)
+}
+
+.RUB {
+    background: none;
+    border: none;
+    color: rgb(227, 227, 227);
+}
+.RUB:hover {
+    color: rgb(255, 255, 255);
+}
+
+.RUB:active {
+    color: rgb(190, 190, 190)
+}

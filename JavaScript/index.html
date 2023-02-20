@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/app.css">
+    <link rel="stylesheet" href="./CSS/sidebar.css">
+    <link rel="stylesheet" href="./CSS/content.css">
+    <link rel="stylesheet" href="https://unicorns.iconscout.com/release/v4.0.0/css/line.css"></link>
+    <title>App</title>
+</head>
+<body>
+  
+    <div class="app">
+
+        <aside>
+
+
+            <header class="controls">
+                <button class="close">x</button>
+                <button class="minimize">-</button>
+                <button class="maximize">+</button> 
+            </header>
+
+
+            <form class="search">
+                <input type="text" placeholder="Search" id="search" onchange="openPage()">
+
+                <script>
+                    function openPage(){
+                        var x = document.getElementById("search").value;
+
+                        if(x === "eur"){
+                            window.open ("https://www.kurzy.cz/kurzy-men/nejlepsi-kurzy/EUR-euro/");
+                        }
+                    }
+                </script>
+            </form>
+
+
+
+            <nav></nav>
+
+
+
+            <div class="currency">
+                <button class="EUR">EUR</button></li> <br>
+                <button class="USD">USD</button></li> <br>
+                <button class="GBP">GBP</button></li> <br>
+                <button class="JPY">JPY</button></li> <br>
+                <button class="CZK">CZK</button></li> <br>
+                <button class="CAD">CAD</button></li> <br>
+                <button class="KRW">KRW</button></li> <br>
+                <button class="RUB">RUB</button></li>
+            </div>
+
+        </aside>
+        
+        <main>    
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+        Possimus, et. Quo suscipit accusantium vel fugiat! Ducimus esse 
+        deserunt necessitatibus expedita quasi quam sed. Excepturi 
+        officia hic ea! Earum, iure debitis?</p>
+    
+    
+    
+    
+        </main>
+
+
+
+
+
+    </div>
+
+</body>
+</html>
